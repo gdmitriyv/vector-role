@@ -4,7 +4,6 @@ Role Variables vector_version: "0.41.1" vector_os_arch: "x86_64" vector_workdir:
 Dependencies clickhouse lighthouse
 Example Playbook
 
-name: Vector hosts: vector gather_facts: false tags: vector roles:
 vector
 License
 BSD
